@@ -25,11 +25,11 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: var(--fontStyle-primary);
+    font-family: var(--fontStyle-secondary);
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--color-tertiary);
-    background-color: var(--color-quaternary);
+    background-color: var();
 }
 img {
     max-width: 100%;
