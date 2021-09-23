@@ -1,0 +1,46 @@
+@import 'load-fonts.css';
+@import url("/css/load-fonts.css");
+:root {
+    --color-primary: #841d40;
+    --color-secondary: #002e55;
+    --color-tertiary: #fff;
+    --color-quaternary: #f5e834;
+    --color-quinary: #115126;
+
+    --fontStyle-primary: 'Hakubo Free Trial', sans-serif;
+    --fontStyle-secondary: 'Heavitas', sans-serif;
+    --fontStyle-tertiary: 'Adlinnaka BoldDemo', sans-serif;
+    --fontStyle-quaternary: 'Montserrat', sans-serif;
+
+    --fontSize-heading: 4.8rem;
+    --fontSize-heading2: 3.8rem;
+    --fontSize-heading3: 3rem;
+    --fontSize-heading4: 2.8rem;
+    --fontSize-paragraphs: 1.6rem;
+}
+
+/* GLOBALS */
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: var(--fontStyle-primary);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--color-tertiary);
+    background-color: var(--color-quaternary);
+}
+img {
+    max-width: 100%;
+}
+
+/* UTILITIES */
+
+
+
+/* GENERALS */
+
+.logothailoko {
+    width: 40rem;
+}
