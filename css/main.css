@@ -1,5 +1,19 @@
-@import 'load-fonts.css';
-@import url("/css/load-fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+@font-face {
+    font-family: 'hakubo_free_trialregular';
+    src: url('fonts/Hakubo/hakubo_free_trial-webfont.woff2') format('woff2'),
+         url('fonts/Hakubo/hakubo_free_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'heavitasregular';
+    src: url('fonts/Heavitas/heavitas-webfont.woff2') format('woff2'),
+         url('fonts/Heavitas/heavitas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
     --color-primary: #841d40;
     --color-secondary: #002e55;
@@ -7,10 +21,9 @@
     --color-quaternary: #f5e834;
     --color-quinary: #115126;
 
-    --fontStyle-primary: 'Hakubo Free Trial', sans-serif;
-    --fontStyle-secondary: 'Heavitas', sans-serif;
-    --fontStyle-tertiary: 'Adlinnaka BoldDemo', sans-serif;
-    --fontStyle-quaternary: 'Montserrat', sans-serif;
+    --fontStyle-primary: 'hakubo_free_trialregular', sans-serif;
+    --fontStyle-secondary: 'heavitasregular', sans-serif;
+    --fontStyle-tertiary: 'Montserrat', sans-serif;
 
     --fontSize-heading: 4.8rem;
     --fontSize-heading2: 3.8rem;
@@ -20,7 +33,6 @@
 }
 
 /* GLOBALS */
-
 html {
     font-size: 62.5%;
 }
@@ -34,8 +46,12 @@ img {
 }
 
 /* UTILITIES */
-
-
+.no__margin {
+  margin: 0;
+}
+.no__padding {
+  padding: 0;
+}
 
 /* GENERALS */
 h1 {
@@ -52,23 +68,23 @@ header {
 .logothailoko__background {
   background-color: var(--color-primary);
   border-radius: 50%;
-  width: 30rem;
-  height: 30rem;
+  width: 28rem;
+  height: 28rem;
 }
 .logothailoko {
-  max-width: 24rem ;
-  max-height: 24rem ;
-  margin: 3rem 2rem 2rem 2.5rem;
+  max-width: 22rem ;
+  max-height: 22rem ;
+  margin: 3.2rem 2rem 2rem 2.5rem;
   transform: rotate(-15deg);
 }
 .eslogan{
   font-size: var(--fontSize-heading);
   line-height: 1.6;
-  margin-top: 23rem;
+  margin: 15rem 0rem 3rem 0rem;
   padding-left: 2rem;
 }
 .text__decoration__white {
   color: var(--color-tertiary);
   background: var(--color-secondary);
-  padding: 1.5rem 1.5rem .5rem 1.5rem;
+  padding: .8rem .8rem .5rem .8rem;
 }
