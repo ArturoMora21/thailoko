@@ -8,7 +8,6 @@
 
     --fontStyle-primary: 'Hakubo Free Trial', sans-serif;
     --fontStyle-secondary: 'Heavitas', sans-serif;
-    --fontStyle-tertiary: 'Adlinnaka BoldDemo', sans-serif;
     --fontStyle-quaternary: 'Montserrat', sans-serif;
 
     --fontSize-heading: 4.8rem;
@@ -20,6 +19,40 @@
 */
 
 /* MOBILE */
-@media (min-width: 480px) {
-    
+@media (max-width: 480px) {
+  .img__background--home {
+    background-position: 65% center;
+  }
+  .logothailoko__background {
+    width: 18rem;
+    height: 18rem
+  }
+  .logothailoko {
+    width: 13.5rem;
+    height: 13.5rem;
+    margin: 2.8rem 1rem 2rem 2.7rem;
+  }
+  .header__navegation {
+    display: none;
+  }
+  .eslogan {
+    font-size: 3rem;
+    margin: 30rem 0rem 0rem 0rem;
+    padding: 0rem;
+  }
+}
+/* TABLET */
+@media (max-width: 768px) {
+    .img__background--home {
+      background-position: center center;
+    }
+    .header__navegation {
+      display: block;
+      text-align: end;
+    }
+    .eslogan {
+      font-size: 4rem;
+      margin-top: 33rem;
+    }
+
 }
