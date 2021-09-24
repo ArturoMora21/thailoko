@@ -24,12 +24,6 @@
     --fontStyle-primary: 'hakubo_free_trialregular', sans-serif;
     --fontStyle-secondary: 'heavitasregular', sans-serif;
     --fontStyle-tertiary: 'Montserrat', sans-serif;
-
-    --fontSize-heading: 4.8rem;
-    --fontSize-heading2: 3.8rem;
-    --fontSize-heading3: 3rem;
-    --fontSize-heading4: 2.8rem;
-    --fontSize-paragraphs: 1.6rem;
 }
 
 /* GLOBALS */
@@ -64,55 +58,44 @@ h1 {
   background-image: url(/img/background-home.webp);
   background-repeat: no-repeat;
   background-size: 144rem 100rem;
-  background-position: center center;
+  background-position: 65% center;
   margin: 0;
   padding: 2.5rem;
-}
-.img__background--location {
-  background-image: url(/img/background-location.webp);
-  background-repeat: no-repeat;
-  background-size: 144rem 95rem;
-  background-position: center center;
-  margin: 0;
-  padding: 2.5rem;
-}
-.logothailoko__background {
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  width: 28rem;
-  height: 28rem;
-}
-.logothailoko__background--location {
-  background-color: var(--color-secondary);
-  border-radius: 50%;
-  width: 28rem;
-  height: 28rem;
-}
-.logothailoko {
-  max-width: 22rem ;
-  max-height: 22rem ;
-  margin: 3.2rem 2rem 2rem 2.5rem;
-  transform: rotate(-15deg);
-}
-.eslogan{
-  font-size: var(--fontSize-heading);
-  line-height: 1.6;
-  margin: 15rem 0rem 3rem 0rem;
-  padding-left: 2rem;
-}
-.text__decoration__white {
-  color: var(--color-tertiary);
-  background: var(--color-secondary);
-  padding: .2rem 1rem .2rem 1rem;
 }
 .header {
   display: flex;
   justify-content: space-between;
 }
 .header__navegation {
+  
+}
+.icono__menu {
   display: flex;
-  justify-content: space-between;
-  gap: 6rem;
+  height: 8rem;
+  width: 8rem;
+}
+.logothailoko__background {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  width: 18rem;
+  height: 18rem
+}
+.logothailoko {
+  width: 13.5rem;
+  height: 13.5rem;
+  margin: 2.8rem 1rem 2rem 2.7rem;
+  transform: rotate(-15deg);
+}
+.eslogan {
+  font-size: 2.2rem;
+  line-height: 1.6;
+  margin: 30rem 0rem 0rem 0rem;
+  padding: 0rem;
+}
+.text__decoration__white {
+  color: var(--color-tertiary);
+  background: var(--color-secondary);
+  padding: .2rem 1rem .2rem 1rem;
 }
 .header__navegation__link p {
   color: var(--color-tertiary);
@@ -123,6 +106,7 @@ h1 {
 
   /* text-shadow: -6px 0 var(--color-secondary), 0 6px var(--color-secondary), 6px 0 var(--color-secondary), 0 -6px var(--color-secondary); */
 }
+
 
 /* LOCATION PAGE */
 .header__navegation__link--location p {
